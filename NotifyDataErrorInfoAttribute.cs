@@ -12,6 +12,7 @@ using PostSharp.Serialization;
 
 namespace Xamarin.Aspects.Patterns.Data.Validation
 {
+    
     [PSerializable]
     [AspectConfiguration(SerializerType = typeof(MsilAspectSerializer))]
     [IntroduceInterface(typeof(INotifyDataErrorInfo))]
