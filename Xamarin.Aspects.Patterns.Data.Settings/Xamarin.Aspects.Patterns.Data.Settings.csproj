@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Ahmed Fouad</Authors>
+    <Company>Ahmed Fouad</Company>
+    <Copyright></Copyright>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Xamarin-patterns</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Xamarin-patterns/Xamarin.Aspects.Patterns.Data</RepositoryUrl>
+    <PackageTags>Postsharp , Xamarin , AOP , Local Storage, Storage, Patterns , Cache, Data Storage,</PackageTags>
+    <Description>Store your data in Local storage just by adding the SettingsAttribute on top of the properies to store or on top of your settings class and let our aspect do the rest for you. It work by weaving the  geter and seter for the target property to make sure that it read/write from local storage.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PostSharp" Version="5.0.45" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
+  </ItemGroup>
+
+</Project>

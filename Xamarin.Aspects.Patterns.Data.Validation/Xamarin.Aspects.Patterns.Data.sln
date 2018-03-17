@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Aspects.Patterns.Data.Validation", "Xamarin.Aspects.Patterns.Data.Validation.csproj", "{C7818B2F-7FC9-46E8-AD1D-2973A90E58A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Aspects.Patterns.Data.Settings", "..\Xamarin.Aspects.Patterns.Data.Settings\Xamarin.Aspects.Patterns.Data.Settings.csproj", "{EAEA41A2-3F2D-4530-96A9-D6BE4DEDB08B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C7818B2F-7FC9-46E8-AD1D-2973A90E58A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7818B2F-7FC9-46E8-AD1D-2973A90E58A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7818B2F-7FC9-46E8-AD1D-2973A90E58A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAEA41A2-3F2D-4530-96A9-D6BE4DEDB08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEA41A2-3F2D-4530-96A9-D6BE4DEDB08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEA41A2-3F2D-4530-96A9-D6BE4DEDB08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAEA41A2-3F2D-4530-96A9-D6BE4DEDB08B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
