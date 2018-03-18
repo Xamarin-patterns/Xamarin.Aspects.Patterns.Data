@@ -5,7 +5,12 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Aspects.Patterns.Data.Validation", "Xamarin.Aspects.Patterns.Data.Validation.csproj", "{C7818B2F-7FC9-46E8-AD1D-2973A90E58A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Aspects.Patterns.Data.Settings", "..\Xamarin.Aspects.Patterns.Data.Settings\Xamarin.Aspects.Patterns.Data.Settings.csproj", "{EAEA41A2-3F2D-4530-96A9-D6BE4DEDB08B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Aspects.Patterns.Data.Settings", "..\Xamarin.Aspects.Patterns.Data.Settings\Xamarin.Aspects.Patterns.Data.Settings.csproj", "{EAEA41A2-3F2D-4530-96A9-D6BE4DEDB08B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F24F60F-6F2C-452A-BBF8-6B5DF5D6DB77}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -6,7 +6,11 @@ This repository should contains postsharp aspects that are related to the data c
 
 ## Getting Started
 Install from nuget 
+### Validation using NotifyDataErrorInfo Aspect
 [![NuGet](https://img.shields.io/nuget/v/Nuget.Core.svg?style=flat-square)](https://www.nuget.org/packages/Xamarin.Aspects.Patterns.Data.Validation/)
+
+### Settings Aspect
+[![NuGet](https://img.shields.io/nuget/v/Nuget.Core.svg?style=flat-square)](https://www.nuget.org/packages/Xamarin.Aspects.Patterns.Data.Settings/)
 
 ### Note
 
