@@ -11,7 +11,7 @@
     <PackageTags>Postsharp , Xamarin , AOP , Local Storage, Storage, Patterns , Cache, Data Storage,</PackageTags>
     <Description>Store your data in Local storage just by adding the SettingsAttribute on top of the properies to store or on top of your settings class and let our aspect do the rest for you. It work by weaving the  geter and seter for the target property to make sure that it read/write from local storage.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.1.0</Version>
+    <Version>1.5.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

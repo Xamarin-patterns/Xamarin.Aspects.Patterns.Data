@@ -63,7 +63,8 @@ namespace Xamarin.Aspects.Patterns.Data.Settings
 
             if (locationInfo.LocationType == typeof(DateTime))
             {
-                CrossSettings.Current.GetValueOrDefault(args.LocationFullName, (DateTime)args.Value);
+                CrossSettings.Current.AddOrUpdateValue(args.LocationFullName, (DateTime)args.Value);
+
                 args.ProceedSetValue();
 
                 return;
@@ -93,7 +94,6 @@ namespace Xamarin.Aspects.Patterns.Data.Settings
             if (locationInfo.LocationType == typeof(Int32))
             {
                 args.Value = CrossSettings.Current.GetValueOrDefault(args.LocationFullName, 0);
-                args.ProceedGetValue();
 
                 return;
             }
@@ -101,7 +101,6 @@ namespace Xamarin.Aspects.Patterns.Data.Settings
             if (locationInfo.LocationType == typeof(Int64))
             {
                 args.Value = CrossSettings.Current.GetValueOrDefault(args.LocationFullName, 0);
-                args.ProceedGetValue();
 
                 return;
             }
@@ -109,7 +108,6 @@ namespace Xamarin.Aspects.Patterns.Data.Settings
             if (locationInfo.LocationType == typeof(bool))
             {
                 args.Value = CrossSettings.Current.GetValueOrDefault(args.LocationFullName, false);
-                args.ProceedGetValue();
 
                 return;
             }
@@ -117,14 +115,12 @@ namespace Xamarin.Aspects.Patterns.Data.Settings
             if (locationInfo.LocationType == typeof(decimal))
             {
                 CrossSettings.Current.GetValueOrDefault(args.LocationFullName, new decimal(0));
-                args.ProceedGetValue();
                 return;
             }
 
             if (locationInfo.LocationType == typeof(DateTime))
             {
                 args.Value = CrossSettings.Current.GetValueOrDefault(args.LocationFullName, new DateTime());
-                args.ProceedGetValue();
 
                 return;
             }
